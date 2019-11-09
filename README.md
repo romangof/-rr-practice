@@ -1,4 +1,4 @@
-# -rr-practice
+# rr-practice
 
 A practice project for react/redux from scrath
 
