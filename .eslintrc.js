@@ -1,7 +1,8 @@
 module.exports = {
     'env': {
         'browser': true,
-        'es6': true
+        'es6': true,
+        'node': true
     },
     'extends': 'eslint:recommended',
     'globals': {
@@ -19,6 +20,8 @@ module.exports = {
         'react'
     ],
     'rules': {
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error" ,
         'indent': [
             'error',
             4
