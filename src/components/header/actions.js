@@ -1,4 +1,4 @@
-import { DISPLAY_ABOUT } from '../../redux/reducers'
+import { DISPLAY_ABOUT } from '../../redux/reducers';
 
 export function changeDisplayedSection() {
     console.log(3333);
